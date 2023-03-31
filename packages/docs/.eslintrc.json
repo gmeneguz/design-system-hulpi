@@ -1,0 +1,3 @@
+{
+  "extends": "@hulpi-ui/eslint-config"
+}
