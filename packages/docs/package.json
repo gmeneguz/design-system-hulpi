@@ -8,7 +8,6 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
@@ -26,11 +25,11 @@
     "@hulpi-ui/react": "*",
     "@hulpi-ui/tokens": "*",
     "@storybook/addon-actions": "^6.5.15",
-    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
     "@storybook/addon-links": "^6.5.15",
-    "@storybook/builder-vite": "^0.2.7",
-    "@storybook/react": "^7.0.2",
+    "@storybook/builder-vite": "^0.2.6",
+    "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0"
   }
