@@ -44,6 +44,6 @@ jobs:
         # See also: https://api.slack.com/methods/chat.postMessage#channels
         # You can pass in multiple channels to post to by providing a comma-delimited list of channel IDs.
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          slack-message: "A new version of ${GITHUB_REPOSITORY} was published! -- GitHub build result: ${{ job.status }}" 
+          slack-message: "A new version of ${{ GITHUB_REPOSITORY }} was published! -- GitHub build result: ${{ job.status }}" 
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
