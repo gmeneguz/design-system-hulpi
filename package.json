@@ -8,7 +8,7 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=package/docs && changeset publish",
+    "release": "turbo run build --filter=!docs && changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
