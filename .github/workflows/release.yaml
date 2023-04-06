@@ -36,11 +36,6 @@ jobs:
           TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM:  ${{ secrets.TURBO_TEAM }}
 
-      - name: Send a Slack notification if a publish happens
-        if: steps.changesets.outputs.published == 'true'
-        # You can do something when a publish happens.
-        run: my-slack-bot send-notification --message 
-
       - name: Post to a Slack channel
         id: slack
         uses: slackapi/slack-github-action@v1.23.0
