@@ -15,4 +15,5 @@ export const colors = {
   hulpi500: '#005F87',
   hulpi700: '#01435F',
   hulpi900: '#001D29',
+  alpha: '#00000055',
 }
