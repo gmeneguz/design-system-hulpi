@@ -1,5 +1,11 @@
 # @hulpi-ui/react
 
+## 2.0.2
+
+### Patch Changes
+
+- fix invalid ref in textinput
+
 ## 2.0.1
 
 ### Patch Changes

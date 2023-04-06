@@ -34,10 +34,3 @@ export const Disabled: StoryObj<TextInputProps> = {
     disabled: true,
   },
 }
-
-// export const CustomTag: StoryObj<TextInputProps> = {
-//   args: {
-//     children: 'Strong TextInput',
-//     as: 'strong',
-//   },
-// }
