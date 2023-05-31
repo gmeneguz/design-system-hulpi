@@ -10,7 +10,7 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
-
+  padding: '$2',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

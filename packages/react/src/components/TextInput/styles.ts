@@ -57,5 +57,14 @@ export const Input = styled('input', {
   '&::placeholder': {
     color: '$gray400',
   },
+  variants: {
+    size: {
+      sm: {},
+      md: {},
+    },
+  },
+  defaultVariants: {
+    size: 'md',
+  },
 })
 TextInputContainer.displayName = 'TextInput'
