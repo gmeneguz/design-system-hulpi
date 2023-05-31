@@ -1,0 +1,2 @@
+import{A as t}from"./index.44b65484.js";import"./index.470fa74b.js";import"./iframe.02d2d186.js";import"./index.b27baeae.js";import"./jsx-runtime.1edee6c7.js";const p={title:"Display/Avatar",component:t,args:{src:"https://github.com/gmeneguz.png",alt:"Gian"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,e as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.5b86b790.js.map
